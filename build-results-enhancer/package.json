@@ -5,7 +5,7 @@
   "scripts": {
     "build": "tsc -p .",
     "postbuild": "npm run package",
-    "package": "tfx extension create",
+    "package": "tfx extension create --Bypass-validation",
     "clean": "rimraf ./dist && rimraf ./*.vsix"
   },
   "repository": {
